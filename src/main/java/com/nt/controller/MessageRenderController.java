@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MessageRenderController {
 	@GetMapping("/api")
 	public String registerCustomer(@RequestParam int cno,@RequestParam(required = true,defaultValue = "rama") String cname) {
-		return cno+"--"+cname;
+		return cno+"----"+cname;
 	}
 	
 	
