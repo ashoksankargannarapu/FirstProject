@@ -8,7 +8,7 @@ public class RestApiProject1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestApiProject1Application.class, args);
-		System.out.println("----");
+		
 	}
 
 }
